@@ -10,9 +10,9 @@ tags: go
 
 ## 目录
 - [awesome-go](#awesome-go)
-    - [音频和音乐 Audio and Music](#audio-and-music)
-    - [身份验证和OAuth](#authentication-and-auth)
-    - [命令行](#command-line)
+    - [音频和音乐 Audio and Music](#音频和音乐-audio-and-music)
+    - [身份验证和OAuth](#身份验证和OAuth-authentication-and-auth)
+    - [命令行](#命令行-command-line)
     - [组态](#configuration)
     - [持续集成](#continuous-integration)
     - [CSS预处理器](#css-preprocessors)
@@ -84,7 +84,7 @@ tags: go
     - [网站](#websites)
         -[教程](#tutorials)
 
-## <span id="audio-and-music">音频和音乐 Audio and Music</span>
+## <span id="音频和音乐-audio-and-music">音频和音乐 Audio and Music</span>
 
 *操作音频的库。*
 
@@ -105,7 +105,7 @@ tags: go
 * [vorbis](https://github.com/mccoyst/vorbis) - "Native" Go Vorbis decoder (uses CGO, but has no dependencies).
 * [waveform](https://github.com/mdlayher/waveform) - 一个Go语言包，能够从音频流生成波形图像。
 
-## <span id="authentication-and-auth">身份验证和OAuth</span>
+## <span id="身份验证和OAuth-authentication-and-auth">身份验证和OAuth</span>
 
 *用于实现认证方案的库。*
 
@@ -133,7 +133,7 @@ tags: go
 * [traefik](https://github.com/containous/traefik) - 支持多个后端的反向代理和负载均衡器
 * [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey客户端软件包，提供了一个简单的API来将Yubico Yubikey集成到一个应用程序中。
 
-## <span id="command-line">命令行</span>
+## <span id="命令行-command-line">命令行</span>
 
 ### 标准CLI
 
