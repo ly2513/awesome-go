@@ -11,7 +11,7 @@ tags: go
 ## 目录
 - [awesome-go](#awesome-go)
     -[音频和音乐 Audio and Music](#audio-and-music)
-    -[身份验证和OAuth](#authentication-and-Auth)
+    -[身份验证和OAuth](#authentication-and-auth)
     -[命令行](#command-line)
     -[组态](#configuration)
     -[持续集成](#continuous-integration)
@@ -84,60 +84,60 @@ tags: go
     -[网站](#websites)
         -[教程](#tutorials)
 
-## Audio and Music
+## <span id="audio-and-music">音频和音乐 Audio and Music</span>
 
-*Libraries for manipulating audio.*
+*操作音频的库。*
 
-* [flac](https://github.com/eaburns/flac) - Native Go FLAC decoder.
-* [flac](https://github.com/mewkiz/flac) - Native Go FLAC decoder.
-* [gaad](https://github.com/Comcast/gaad) - Native Go AAC bitstream parser.
-* [go-sox](https://github.com/krig/go-sox) - libsox bindings for go.
+* [flac](https://github.com/eaburns/flac) - 一款GO语言实现的本地FLAC解码器。
+* [flac](https://github.com/mewkiz/flac) - 另一款GO语言实现的本地FLAC解码器。
+* [gaad](https://github.com/Comcast/gaad) - 本地AAC码比特流分析器。
+* [go-sox](https://github.com/krig/go-sox) - libsox绑定GO libsox bindings for go.
 * [go_mediainfo](https://github.com/zhulik/go_mediainfo) - libmediainfo bindings for go.
 * [gosamplerate](https://github.com/dh1tw/gosamplerate) - libsamplerate bindings for go.
-* [id3v2](https://github.com/bogem/id3v2) - Fast and stable ID3 parsing and writing library for Go.
-* [malgo](https://github.com/gen2brain/malgo) - Mini audio library.
-* [mix](https://github.com/go-mix/mix) - Sequence-based Go-native audio mixer for music apps.
-* [mp3](https://github.com/tcolgate/mp3) - Native Go MP3 decoder.
-* [music-theory](https://github.com/go-music-theory/music-theory) - Music theory models in Go.
+* [id3v2](https://github.com/bogem/id3v2) - 一个GO语言是写的快速稳定读写ID3库。
+* [malgo](https://github.com/gen2brain/malgo) - 一个用GO语言实现的迷你音频库。
+* [mix](https://github.com/go-mix/mix) - 以序列为基础的GO语言实现的本地音频混合器音乐应用程序。
+* [mp3](https://github.com/tcolgate/mp3) - GO语言实现本地MP3解码器。
+* [music-theory](https://github.com/go-music-theory/music-theory) - GO语言的一个音乐理论模型。
 * [PortAudio](https://github.com/gordonklaus/portaudio) - Go bindings for the PortAudio audio I/O library.
 * [portmidi](https://github.com/rakyll/portmidi) - Go bindings for PortMidi.
 * [taglib](https://github.com/wtolson/go-taglib) - Go bindings for taglib.
 * [vorbis](https://github.com/mccoyst/vorbis) - "Native" Go Vorbis decoder (uses CGO, but has no dependencies).
-* [waveform](https://github.com/mdlayher/waveform) - Go package capable of generating waveform images from audio streams.
+* [waveform](https://github.com/mdlayher/waveform) - 一个Go语言包，能够从音频流生成波形图像。
 
-## Authentication and OAuth
+## <span id="authentication-and-auth">身份验证和OAuth</span>
 
-*Libraries for implementing authentications schemes.*
+*用于实现认证方案的库。*
 
-* [authboss](https://github.com/volatiletech/authboss) - Modular authentication system for the web. It tries to remove as much boilerplate and "hard things" as possible so that each time you start a new web project in Go, you can plug it in, configure, and start building your app without having to build an authentication system each time.
-* [casbin](https://github.com/hsluoyz/casbin) - Authorization library that supports access control models like ACL, RBAC, ABAC.
-* [cookiestxt](https://github.com/mengzhuo/cookiestxt) - provides parser of cookies.txt file format.
-* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS (Amazon Web Services) request signing library.
-* [go-jose](https://github.com/square/go-jose) - Fairly complete implementation of the JOSE working group's JSON Web Token, JSON Web Signatures, and JSON Web Encryption specs.
-* [go-oauth2-server](https://github.com/RichardKnop/go-oauth2-server) - Standalone, specification-compliant,  OAuth2 server written in Golang.
-* [gologin](https://github.com/dghubble/gologin) - chainable handlers for login with OAuth1 and OAuth2 authentication providers.
-* [gorbac](https://github.com/mikespook/gorbac) - provides a lightweight role-based access control (RBAC) implementation in Golang.
-* [goth](https://github.com/markbates/goth) - provides a simple, clean, and idiomatic way to use OAuth and OAuth2. Handles multiple providers out of the box.
-* [httpauth](https://github.com/goji/httpauth) - HTTP Authentication middleware.
-* [jwt](https://github.com/robbert229/jwt) - Clean and easy to use implementation of JSON Web Tokens (JWT).
-* [jwt-auth](https://github.com/adam-hanna/jwt-auth) - JWT middleware for Golang http servers with many configuration options.
-* [jwt-go](https://github.com/dgrijalva/jwt-go) - Golang implementation of JSON Web Tokens (JWT).
-* [loginsrv](https://github.com/tarent/loginsrv) - JWT login microservice with plugable backends such as OAuth2 (Github), htpasswd, osiam.
-* [oauth2](https://github.com/golang/oauth2) - Successor of goauth2. Generic OAuth 2.0 package that comes with JWT, Google APIs, Compute Engine and App Engine support.
+* [authboss](https://github.com/volatiletech/authboss) - 网络的模块化认证系统。它试图去除尽可能多的样板和“困难的事情”，以便每次在Go中启动一个新的Web项目时，都可以插入，配置并开始构建应用程序，而无需每次都构建一个身份验证系统。
+* [casbin](https://github.com/hsluoyz/casbin) - 支持访问控制模型（如ACL，RBAC，ABAC）的授权库。
+* [cookiestxt](https://github.com/mengzhuo/cookiestxt) - 提供解析cookie文件格式。
+* [Go-AWS-Auth](https://github.com/smartystreets/go-aws-auth) - AWS（Amazon Web Services）请求签名库。
+* [go-jose](https://github.com/square/go-jose) - 相当完整地实现了JOSE工作组的JSON Web令牌、JSON Web签名和JSON网络加密规范。
+* [go-oauth2-server](https://github.com/RichardKnop/go-oauth2-server) - GO语言实现的独立的，符合规范的，oauth2服务。
+* [gologin](https://github.com/dghubble/gologin) - 可以使用OAuth1或者OAuth2进行登录认证。
+* [gorbac](https://github.com/mikespook/gorbac) - 提供了一个轻量级的基于角色的访问控制（RBAC）。
+* [goth](https://github.com/markbates/goth) - 提供了一个简单，干净，和习惯的方式来使用OAuth和oauth2。提供非常好的处理复杂的操作。
+* [httpauth](https://github.com/goji/httpauth) - 一个HTTP身份验证中间件。
+* [jwt](https://github.com/robbert229/jwt) - 简洁易用实现json web的令牌 (JWT)。
+* [jwt-auth](https://github.com/adam-hanna/jwt-auth) - 具有许多配置选项的Golang http服务器的JWT中间件。
+* [jwt-go](https://github.com/dgrijalva/jwt-go) - GO语言实现Json Web Tokens(JWT)。
+* [loginsrv](https://github.com/tarent/loginsrv) - 带有可插入后端的JWT登录微服务，如OAuth2（Github），htpasswd，osiam。
+* [oauth2](https://github.com/golang/oauth2) - 继承goauth2。通用OAuth 2包来自JWT，谷歌计算引擎和API，应用程序引擎支持。
 * [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
-* [permissions2](https://github.com/xyproto/permissions2) - Library for keeping track of users, login states and permissions. Uses secure cookies and bcrypt.
-* [securecookie](https://github.com/chmike/securecookie) - Efficient secure cookie encoding/decoding.
-* [session](https://github.com/icza/session) - Go session management for web servers (including support for Google App Engine - GAE).
-* [sessiongate-go](https://github.com/f0rmiga/sessiongate-go) - Go session management using the SessionGate Redis module.
-* [sessions](https://github.com/adam-hanna/sessions) - Dead simple, highly performant, highly customizable sessions service for go http servers.
-* [traefik](https://github.com/containous/traefik) - Reverse proxy and load balancer with support for multiple backends.
-* [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey client package that provides a simple API to integrate the Yubico Yubikey into a go application.
+* [permissions2](https://github.com/xyproto/permissions2) - 跟踪用户、登录状态和权限的库。使用安全的Cookie和BCrypt。
+* [securecookie](https://github.com/chmike/securecookie) - 高效安全cookie编码/解码。
+* [session](https://github.com/icza/session) - 通过web servers 管理会话(包含支持goole App 引擎 - GAE)。
+* [sessiongate-go](https://github.com/f0rmiga/sessiongate-go) - GO语言通过使用sessiongate Redis模块管理会话。
+* [sessions](https://github.com/adam-hanna/sessions) - 简单，高性能，高度可定制的会话服务去http服务器。
+* [traefik](https://github.com/containous/traefik) - 支持多个后端的反向代理和负载均衡器
+* [yubigo](https://github.com/GeertJohan/yubigo) - Yubikey客户端软件包，提供了一个简单的API来将Yubico Yubikey集成到一个应用程序中。
 
-## Command Line
+## <span id="command-line">命令行</span>
 
-### Standard CLI
+### 标准CLI
 
-*Libraries for building standard or basic Command Line applications.*
+*用于构建标准或基本命令行应用程序的库。*
 
 * [argv](https://github.com/cosiner/argv) - Go library to split command line string as arguments array using the bash syntax.
 * [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
