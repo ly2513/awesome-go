@@ -105,7 +105,7 @@ tags: go
 * [vorbis](https://github.com/mccoyst/vorbis) - "Native" Go Vorbis decoder (uses CGO, but has no dependencies).
 * [waveform](https://github.com/mdlayher/waveform) - 一个Go语言包，能够从音频流生成波形图像。
 
-## <span id="身份验证和OAuth-authentication-and-auth">身份验证和OAuth</span>
+## <span id="身份验证和oauth-authentication-and-auth">身份验证和OAuth</span>
 
 *用于实现认证方案的库。*
 
