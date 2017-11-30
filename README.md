@@ -34,7 +34,7 @@ tags: go
     - [GUI](#gui)
     - [硬件 Hardware](#硬件-hardware)
     - [图片 Images](#图片-images)
-    - [物联网 Iot](#物联网-iot)
+    - [物联网 Iot (Internet of Things)](#物联网-iot)
     - [日志 Logging](#日志-logging)
     - [机器学习 Machine Learning](#机器学习-machine-learning)
     - [消息 Messaging](#消息-messaging)
@@ -454,7 +454,7 @@ Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](
 * [SendGrid](https://github.com/sendgrid/sendgrid-go) - SendGrid's Go library for sending email.
 * [smtp](https://github.com/mailhog/smtp) - SMTP server protocol state machine.
 
-## <span id="嵌入式脚本语言-embeddable-scripting-languages">Embeddable Scripting Languages</span> 
+## <span id="嵌入式脚本语言-embeddable-scripting-languages">嵌入式脚本语言 Embeddable Scripting Languages</span>
 
 *Embedding other languages inside your go code.*
 
@@ -542,7 +542,7 @@ Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](
 * [jennifer](https://github.com/dave/jennifer) - Generate arbitrary Go code without templates.
 * [pkgreflect](https://github.com/ungerik/pkgreflect) - Go preprocessor for package scoped reflection.
 
-## <span id="go编译器-go-compilers"> Go Compilers</span> 
+## <span id="go编译器-go-compilers">GO编译器 Go Compilers</span>
 
 *Tools for compiling Go to other languages.*
 
@@ -550,7 +550,7 @@ Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](
 * [llgo](https://github.com/go-llvm/llgo) - LLVM-based compiler for Go.
 * [tardisgo](https://github.com/tardisgo/tardisgo) - Golang to Haxe to CPP/CSharp/Java/JavaScript transpiler.
 
-## <span id="go路由-goroutines">GO路由 Goroutines</span>
+## <span id="go路由-go-routines">GO路由 Go Routines</span>
     
 *Tools for managing and working with Goroutines.*
 
@@ -598,7 +598,7 @@ Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](
 
 See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive list.
 
-## <span id="图片-images"> 图片 Images</span>
+## <span id="图片-images">图片 Images</span>
 
 *Libraries for manipulating images.*
 
