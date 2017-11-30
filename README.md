@@ -13,20 +13,21 @@ tags: go
     - [音频和音乐 Audio and Music](#音频和音乐-audio-and-music)
     - [身份验证和OAuth Authentication and Auth](#身份验证和oauth-authentication-and-auth)
     - [命令行 Command Line](#命令行-command-line)
-    - [组态 configuration](#组态-configuration)
-    - [持续集成](#continuous-integration)
-    - [CSS预处理器](#css-preprocessors)
-    - [数据结构](#data-structures)
-    - [数据库](#database)
-    - [数据库驱动](#database-drivers)
-    - [日期和时间](#date-and-time)
-    - [分布式系统](#distributed-systems)
-    - [电子邮件](#email)
-    - [嵌入式脚本语言](#embeddable-scripting-languages)
-    - [档](#files)
-    - [金融](#financial)
-    - [表单](#forms)
-    - [游戏开发](#game-development)
+    - [高级控制台用户界面 Advanced Console UIs](#高级控制台用户界面-advanced-console-uis)
+    - [组态 Configuration](#组态-configuration)
+    - [持续集成 Continuous Integration](#持续集成-continuous-integration)
+    - [CSS预处理器 Css Preprocessors](#CSS预处理器-css-preprocessors)
+    - [数据结构 Data Structures](#数据结构-data-structures)
+    - [数据库 Database](#数据库-database)
+    - [数据库驱动 Database Drivers](#数据库驱动-database-drivers)
+    - [日期和时间 Date and Time](#日期和时间-date-and-time)
+    - [分布式系统 Distributed Systems](#分布式系统-distributed-systems)
+    - [电子邮件 Email](#电子邮件-email)
+    - [嵌入式脚本语言 Embeddable Scripting Languages](#嵌入式脚本语言-embeddable-scripting-languages)
+    - [档 Files](#档-files)
+    - [金融 Financial](#金融-financial)
+    - [表单 Forms](#表单-forms)
+    - [游戏开发 Game Development](#游戏开发-game-development)
     - [代和泛型](#generation-and-generics)
     - [Go编译器](#go-compilers)
     - [GO路由](#goroutines)
@@ -124,7 +125,7 @@ tags: go
 * [jwt-go](https://github.com/dgrijalva/jwt-go) - GO语言实现Json Web Tokens(JWT)。
 * [loginsrv](https://github.com/tarent/loginsrv) - 带有可插入后端的JWT登录微服务，如OAuth2（Github），htpasswd，osiam。
 * [oauth2](https://github.com/golang/oauth2) - 继承goauth2。通用OAuth 2包来自JWT，谷歌计算引擎和API，应用程序引擎支持。
-* [osin](https://github.com/RangelReale/osin) - Golang OAuth2 server library.
+* [osin](https://github.com/RangelReale/osin) - Golang OAuth2服务 库.
 * [permissions2](https://github.com/xyproto/permissions2) - 跟踪用户、登录状态和权限的库。使用安全的Cookie和BCrypt。
 * [securecookie](https://github.com/chmike/securecookie) - 高效安全cookie编码/解码。
 * [session](https://github.com/icza/session) - 通过web servers 管理会话(包含支持goole App 引擎 - GAE)。
@@ -139,114 +140,116 @@ tags: go
 
 *用于构建标准或基本命令行应用程序的库。*
 
-* [argv](https://github.com/cosiner/argv) - Go library to split command line string as arguments array using the bash syntax.
-* [cli](https://github.com/mkideal/cli) - Feature-rich and easy to use command-line package based on golang struct tags.
-* [cli](https://github.com/teris-io/cli) - Simple and complete API for building command line interfaces in Go.
-* [cli-init](https://github.com/tcnksm/gcli) - The easy way to start building Golang command line applications.
-* [climax](http://github.com/tucnak/climax) - Alternative CLI with "human face", in spirit of Go command.
-* [cobra](https://github.com/spf13/cobra) - Commander for modern Go CLI interactions.
+* [argv](https://github.com/cosiner/argv) - 一个GO语言库，用于将将bash语法中的命令行字符串拆分为参数数组。
+* [cli](https://github.com/mkideal/cli) - 一个功能丰富且简单易用的基于golang结构标签的命令行包。
+* [cli](https://github.com/teris-io/cli) - 在Go中构建命令行界面的简单而完整的API.
+* [cli-init](https://github.com/tcnksm/gcli) - 开始构建Golang命令行应用程序的简单方法。
+* [climax](http://github.com/tucnak/climax) - 在Go命令的精神下，用“人脸”替代CLI.
+* [cobra](https://github.com/spf13/cobra) - 现代Go CLI交互的指挥官.
 * [complete](https://github.com/posener/complete) - Write bash completions in Go + Go command bash completion.
-* [docopt.go](https://github.com/docopt/docopt.go) - Command-line arguments parser that will make you smile.
-* [drive](https://github.com/odeke-em/drive) - Google Drive client for the commandline.
-* [env](https://github.com/codingconcepts/env) - Tag-based environment configuration for structs.
-* [flag](https://github.com/cosiner/flag) - Simple but powerful command line option parsing library for Go supporting subcommand.
-* [go-arg](https://github.com/alexflint/go-arg) - Struct-based argument parsing in Go.
-* [go-flags](https://github.com/jessevdk/go-flags) - go command line option parser.
-* [kingpin](https://github.com/alecthomas/kingpin) - Command line and flag parser supporting sub commands.
-* [liner](https://github.com/peterh/liner) - Go readline-like library for command-line interfaces.
-* [mitchellh/cli](https://github.com/mitchellh/cli) - Go library for implementing command-line interfaces.
-* [mow.cli](https://github.com/jawher/mow.cli) - Go library for building CLI applications with sophisticated flag and argument parsing and validation.
-* [pflag](https://github.com/spf13/pflag) - Drop-in replacement for Go's flag package, implementing POSIX/GNU-style --flags.
-* [readline](https://github.com/chzyer/readline) - Pure golang implementation that provides most features in GNU-Readline under MIT license.
-* [sflags](https://github.com/octago/sflags) - Struct based flags generator for flag, urfave/cli, pflag, cobra, kingpin and other libraries.
-* [ukautz/clif](https://github.com/ukautz/clif) - Small command line interface framework.
-* [urfave/cli](https://github.com/urfave/cli) - Simple, fast, and fun package for building command line apps in Go (formerly codegangsta/cli).
-* [wlog](https://github.com/dixonwille/wlog) - Simple logging interface that supports cross-platform color and concurrency.
-* [wmenu](https://github.com/dixonwille/wmenu) - Easy to use menu structure for cli applications that prompts users to make choices.
+* [docopt.go](https://github.com/docopt/docopt.go) - 命令行参数解析器，会让你微笑。
+* [drive](https://github.com/odeke-em/drive) - 命令行的Google Drive客户端。
+* [env](https://github.com/codingconcepts/env) - 针对结构的基于标记的环境配置。
+* [flag](https://github.com/cosiner/flag) - 一个Go支持子命令的简单但强大的命令行选项解析库。
+* [go-arg](https://github.com/alexflint/go-arg) - 一个在Go中基于结构的参数解析。
+* [go-flags](https://github.com/jessevdk/go-flags) - 一个命令行选项分析器。
+* [kingpin](https://github.com/alecthomas/kingpin) - 一个支持子命令的命令行和标志分析器。
+* [liner](https://github.com/peterh/liner) - 一个GO命令行界面的类似readline的库。
+* [mitchellh/cli](https://github.com/mitchellh/cli) - 一个用GO的实现命令行接口的库。
+* [mow.cli](https://github.com/jawher/mow.cli) - 一个用GO语言实现通过复杂的标签和参数分析和验证构建CLI应用程序的库。
+* [pflag](https://github.com/spf13/pflag) - Go的标志包的替代品，实现POSIX / GNU风格的标志。
+* [readline](https://github.com/chzyer/readline) - 纯粹的golang实现，提供GNU-Readline在MIT许可下的大部分功能。
+* [sflags](https://github.com/octago/sflags) - 用于标志，urfave / cli，pflag，cobra，kingpin和其他库的基于结构的标志生成器。
+* [ukautz/clif](https://github.com/ukautz/clif) - 小命令行界面框架。
+* [urfave/cli](https://github.com/urfave/cli) - 用于在Go（以前的codegangsta / cli）中构建命令行应用程序的简单，快速和有趣的软件包。
+* [wlog](https://github.com/dixonwille/wlog) - 支持跨平台颜色和并发性的简单日志记录界面。
+* [wmenu](https://github.com/dixonwille/wmenu) - 易于使用的菜单结构的cli应用程序，提示用户作出选择。
 
-### Advanced Console UIs
+### <span id="高级控制台用户界面-advanced-console-uis">高级控制台用户界面 Advanced Console UIs</span>
 
-*Libraries for building Console Applications and Console User Interfaces.*
+*用于构建控制台应用程序和控制台用户界面的库。*
 
-* [aurora](https://github.com/logrusorgru/aurora) - ANSI terminal colors that supports fmt.Printf/Sprintf.
-* [chalk](https://github.com/ttacon/chalk) - Intuitive package for prettifying terminal/console output.
-* [color](https://github.com/fatih/color) - Versatile package for colored terminal output.
-* [colourize](https://github.com/TreyBastian/colourize) - Go library for ANSI colour text in terminals.
-* [go-ataman](https://github.com/workanator/go-ataman) - Go library for rendering ANSI colored text templates in terminals.
-* [go-colorable](https://github.com/mattn/go-colorable) - Colorable writer for windows.
-* [go-colortext](https://github.com/daviddengcn/go-colortext) - Go library for color output in terminals.
-* [go-isatty](https://github.com/mattn/go-isatty) - isatty for golang.
-* [gocui](https://github.com/jroimartin/gocui) - Minimalist Go library aimed at creating Console User Interfaces.
-* [gommon/color](https://github.com/labstack/gommon/tree/master/color) - Style terminal text.
-* [mpb](https://github.com/vbauerster/mpb) - Multi progress bar for terminal applications.
-* [progressbar](https://github.com/schollz/progressbar) - Basic thread-safe progress bar that works in every OS.
-* [termbox-go](https://github.com/nsf/termbox-go) - Termbox is a library for creating cross-platform text-based interfaces.
-* [termtables](https://github.com/apcera/termtables) - Go port of the Ruby library [terminal-tables](https://github.com/tj/terminal-table) for simple ASCII table generation as well as providing markdown and HTML output.
-* [termui](https://github.com/gizak/termui) - Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
-* [tui-go](https://github.com/marcusolsson/tui-go) - Go UI library for building rich terminal applications.
-* [uilive](https://github.com/gosuri/uilive) - Library for updating terminal output in realtime.
-* [uiprogress](https://github.com/gosuri/uiprogress) - Flexible library to render progress bars in terminal applications.
-* [uitable](https://github.com/gosuri/uitable) - Library to improve readability in terminal apps using tabular data.
+* [aurora](https://github.com/logrusorgru/aurora) - 支持fmt.Printf / Sprintf的ANSI终端颜色。
+* [chalk](https://github.com/ttacon/chalk) - 美化终端/控制台输出的直观包装。
+* [color](https://github.com/fatih/color) - 彩色终端输出的多功能包装。
+* [colourize](https://github.com/TreyBastian/colourize) - GO语言实现的一个终端的ANSI颜色文本库。
+* [go-ataman](https://github.com/workanator/go-ataman) - 一个GO语言库用于渲染ANSI彩色文本模板的终端。
+* [go-colorable](https://github.com/mattn/go-colorable) - 针对windows，GO语言实现的可着色的工具。
+* [go-colortext](https://github.com/daviddengcn/go-colortext) - 一个GO语言库用于终端的颜色输出库。
+* [go-isatty](https://github.com/mattn/go-isatty) - GO语言的isatty。
+* [gocui](https://github.com/jroimartin/gocui) - Minimalist Go库旨在创建控制台用户界面。
+* [gommon/color](https://github.com/labstack/gommon/tree/master/color) - 样式终端文本。
+* [mpb](https://github.com/vbauerster/mpb) - 终端应用程序的多进度条。
+* [progressbar](https://github.com/schollz/progressbar) - 在每个操作系统中工作的基本线程安全进度条。
+* [termbox-go](https://github.com/nsf/termbox-go) - Termbox是一个用于创建跨平台文本界面的库。
+* [termtables](https://github.com/apcera/termtables) - 用于简单的ASCII表生成的Ruby库[终端表](https://github.com/tj/terminal-table)的端口，以及提供降价和HTML输出。
+* [termui](https://github.com/gizak/termui) - 基于转到终端仪表板**termbox-go** 和灵感祝福-的contrib。
+Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](https://github.com/yaronn/blessed-contrib).
+* [tui-go](https://github.com/marcusolsson/tui-go) - 用于构建丰富的终端应用程序的用户界面库。
+* [uilive](https://github.com/gosuri/uilive) - 实时更新终端输出的库。
+* [uiprogress](https://github.com/gosuri/uiprogress) - 灵活的库在终端应用程序中呈现进度条。Flexible library to render progress bars in terminal applications.
+* [uitable](https://github.com/gosuri/uitable) - 一个使用表格数据提高终端应用程序可读性的库。
 
-## Configuration
+## <span id="组态-configuration">组态 Configuration</span>
 
-*Libraries for configuration parsing.*
+*用于配置解析的库.*
 
-* [config](https://github.com/olebedev/config) - JSON or YAML configuration wrapper with environment variables and flags parsing.
-* [configure](https://github.com/paked/configure) - Provides configuration through multiple sources, including JSON, flags and environment variables.
-* [env](https://github.com/caarlos0/env) - Parse environment variables to Go structs (with defaults).
-* [envcfg](https://github.com/tomazk/envcfg) - Un-marshaling environment variables to Go structs.
-* [envconf](https://github.com/ian-kent/envconf) - Configuration from environment.
-* [envconfig](https://github.com/vrischmann/envconfig) - Read your configuration from environment variables.
-* [envh](https://github.com/antham/envh) - Helpers to manage environment variables.
-* [gcfg](https://github.com/go-gcfg/gcfg) - read INI-style configuration files into Go structs; supports user-defined types and subsections.
-* [goConfig](https://github.com/crgimenes/goConfig) - Parses a struct as input and populates the fields of this struct with parameters from command line, environment variables and configuration file.
-* [godotenv](https://github.com/joho/godotenv) - Go port of Ruby's dotenv library (Loads environment variables from `.env`).
-* [gofigure](https://github.com/ian-kent/gofigure) - Go application configuration made easy.
-* [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) - Modular JSON configuration. Keep you config structs along with the code they configure and delegate parsing to submodules without sacrificing full config serialization.
-* [hjson](https://github.com/hjson/hjson-go) - Human JSON, a configuration file format for humans. Relaxed syntax, fewer mistakes, more comments.
-* [ingo](https://github.com/schachmat/ingo) - Flags persisted in an ini-like config file.
-* [ini](https://github.com/go-ini/ini) - Go package to read and write INI files.
-* [joshbetz/config](https://github.com/joshbetz/config) - Small configuration library for Go that parses environment variables, JSON files, and reloads automatically on SIGHUP.
-* [mini](https://github.com/sasbury/mini) - Golang package for parsing ini-style configuration files.
-* [store](https://github.com/tucnak/store) - Lightweight configuration manager for Go.
+* [config](https://github.com/olebedev/config) -  环境变量和标志解析的JSON或YAML配置包装。
+* [configure](https://github.com/paked/configure) - 通过多种来源提供配置，包括JSON，标志和环境变量。
+* [env](https://github.com/caarlos0/env) - 将环境变量解析为Go结构（使用默认值）。
+* [envcfg](https://github.com/tomazk/envcfg) -  取消编组环境变量到Go结构。 Un-marshaling environment variables to Go structs.
+* [envconf](https://github.com/ian-kent/envconf) - 环境配置
+* [envconfig](https://github.com/vrischmann/envconfig) - 从环境变量中读取配置。
+* [envh](https://github.com/antham/envh) - 帮助者管理环境变量。
+* [gcfg](https://github.com/go-gcfg/gcfg) - 将INI文件格式的配置文件读入Go结构中; 支持用户定义的类型和子部分。
+* [goConfig](https://github.com/crgimenes/goConfig) - 解析一个结构作为输入，并使用来自命令行，环境变量和配置文件的参数填充此结构的字段。
+* [godotenv](https://github.com/joho/godotenv) - Ruby的dotenv库的端口（加载环境变量.env）。
+* [gofigure](https://github.com/ian-kent/gofigure) - 让GO语言应用程序配置变得简单。
+* [gone/jconf](https://github.com/One-com/gone/tree/master/jconf) - 模块化JSON配置。保持配置结构以及它们配置的代码，并将解析委派给子模块，
+而不会牺牲完整的配置序列化。
+* [hjson](https://github.com/hjson/hjson-go) - 人类JSON，一种人类的配置文件格式。轻松的语法，更少的错误，更多的评论。
+* [ingo](https://github.com/schachmat/ingo) - 标签保存在一个INI配置文件中。 
+* [ini](https://github.com/go-ini/ini) - 一个Go语言包用于读取和写入INI文件。
+* [joshbetz/config](https://github.com/joshbetz/config) - 一个用于解析环境变量，JSON文件并在SIGHUP上自动重新加载的Go的小型配置库。
+* [mini](https://github.com/sasbury/mini) - 一个用于解析ini样式配置文件的Go语言包。
+* [store](https://github.com/tucnak/store) -  Go的轻量级配置管理器。
 * [viper](https://github.com/spf13/viper) - Go configuration with fangs.
-* [xdg](https://github.com/OpenPeeDeeP/xdg) - Cross platform package that follows the [XDG Standard](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html).
+* [xdg](https://github.com/OpenPeeDeeP/xdg) - 遵循[XDG标准](https://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html)的跨平台软件包。
 
-## Continuous Integration
+## <span id="持续集成-continuous-integration">持续集成 Continuous Integration</span>     
 
-*Tools for help with continuous integration.*
+*帮助持续集成的工具。*
 
-* [drone](https://github.com/drone/drone) - Drone is a Continuous Integration platform built on Docker, written in Go.
-* [goveralls](https://github.com/mattn/goveralls) - Go integration for Coveralls.io continuous code coverage tracking system.
-* [overalls](https://github.com/go-playground/overalls) - Multi-Package go project coverprofile for tools like goveralls.
-* [roveralls](https://github.com/LawrenceWoodman/roveralls) - Recursive coverage testing tool.
+* [drone](https://github.com/drone/drone) - Drone是一个持续集成的平台，建立在Docker上，用Go编写。
+* [goveralls](https://github.com/mattn/goveralls) - 与Coveralls.io连续代码覆盖率跟踪系统集成。 
+* [overalls](https://github.com/go-playground/overalls) - 多包装GO项目goveralls工具项目coverprofile。
+* [roveralls](https://github.com/LawrenceWoodman/roveralls) - 递归覆盖测试工具。
 
-## CSS Preprocessors
+## <span id="CSS预处理器-css-preprocessors">CSS预处理器 CSS Preprocessors</span> 
 
-*Libraries for preprocessing CSS files.*
+*用于预处理CSS文件的库。*
 
-* [c6](https://github.com/c9s/c6) - High performance SASS compatible-implementation compiler written in Go.
-* [gcss](https://github.com/yosssi/gcss) - Pure Go CSS Preprocessor.
-* [go-libsass](https://github.com/wellington/go-libsass) - Go wrapper to the 100% Sass compatible libsass project.
+* [c6](https://github.com/c9s/c6) - 用Go编写的高性能SASS兼容实现编译器。
+* [gcss](https://github.com/yosssi/gcss) - Pure Go CSS预处理器。
+* [go-libsass](https://github.com/wellington/go-libsass) - 打包到100％Sass兼容的libsass项目。
 
-## Data Structures
+## <span id="数据结构-data-structures">数据结构 Data Structures</span>
 
-*Generic datastructures and algorithms in Go.*
+*Go中的通用数据结构和算法*
 
-* [binpacker](https://github.com/zhuangsirui/binpacker) - Binary packer and unpacker helps user build custom binary stream.
-* [bit](https://github.com/yourbasic/bit) - Golang set data structure with bonus bit-twiddling functions.
-* [bitset](https://github.com/willf/bitset) - Go package implementing bitsets.
-* [bloom](https://github.com/zhenjl/bloom) - Bloom filters implemented in Go.
-* [bloom](https://github.com/yourbasic/bloom) - Golang Bloom filter implementation.
-* [boomfilters](https://github.com/tylertreat/BoomFilters) - Probabilistic data structures for processing continuous, unbounded streams.
-* [concurrent-writer](https://github.com/free/concurrent-writer) - Highly concurrent drop-in replacement for `bufio.Writer`.
-* [count-min-log](https://github.com/seiflotfy/count-min-log) - Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).
-* [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo filter: a good alternative to a counting bloom filter implemented in Go.
-* [encoding](https://github.com/zhenjl/encoding) - Integer Compression Libraries for Go.
-* [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - Go implementation of Adaptive Radix Tree.
-* [go-datastructures](https://github.com/Workiva/go-datastructures) - Collection of useful, performant, and thread-safe data structures.
-* [go-ef](https://github.com/amallia/go-ef) - A Go implementation of the Elias-Fano encoding.
+* [binpacker](https://github.com/zhuangsirui/binpacker) - 二进制打包器和解包器可以帮助用户构建自定义二进制流。
+* [bit](https://github.com/yourbasic/bit) - Golang设置数据结构与奖金位拨弄功能。 set data structure with bonus bit-twiddling functions.
+* [bitset](https://github.com/willf/bitset) - 执行包的实现位集。
+* [bloom](https://github.com/zhenjl/bloom) - Go实现的Bloom过滤器。
+* [bloom](https://github.com/yourbasic/bloom) - Bloom过滤器的实现。
+* [boomfilters](https://github.com/tylertreat/BoomFilters) - 用于处理连续，无界流的概率数据结构。
+* [concurrent-writer](https://github.com/free/concurrent-writer) - 高度并发的插入式替换 `bufio.Writer`。
+* [count-min-log](https://github.com/seiflotfy/count-min-log) - 执行Count-Min-Log草图：用近似计数器近似计数（与Count-Min草图类似，但使用较少的内存）。
+* [cuckoofilter](https://github.com/seiflotfy/cuckoofilter) - Cuckoo 过滤器: 在GO中实现的一个计数bloom过滤器的好替代方案。
+* [encoding](https://github.com/zhenjl/encoding) - Go语言的整型压缩库
+* [go-adaptive-radix-tree](https://github.com/plar/go-adaptive-radix-tree) - GO语言实现Adaptive Radix Tree算法。
+* [go-datastructures](https://github.com/Workiva/go-datastructures) - 有用，高性能和线程安全的数据结构的集合。
+* [go-ef](https://github.com/amallia/go-ef) - GO语言实现Elias-Fano编码。
 * [go-geoindex](https://github.com/hailocab/go-geoindex) - In-memory geo index.
 * [go-rquad](https://github.com/aurelien-rainone/go-rquad) - Region quadtrees with efficient point location and neighbour finding.
 * [gods](https://github.com/emirpasic/gods) - Go Data Structures. Containers, Sets, Lists, Stacks, Maps, BidiMaps, Trees, HashSet etc.
