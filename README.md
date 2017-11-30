@@ -34,11 +34,11 @@ tags: go
     - [GUI](#gui)
     - [硬件 Hardware](#硬件-hardware)
     - [图片 Images](#图片-images)
-    - [物联网 Iot (Internet of Things)](#物联网-iot)
+    - [物联网 Iot (Internet of Things)](##物联网-iot-internet-of-things)
     - [日志 Logging](#日志-logging)
     - [机器学习 Machine Learning](#机器学习-machine-learning)
     - [消息 Messaging](#消息-messaging)
-    - [杂 Miscellaneous](#杂-miscellaneous)
+    - [其他 Miscellaneous](#其他-miscellaneous)
     - [自然语言处理 Natural Language Processing](#自然语言处理-natural-language-processing)
     - [网络 Networking](#网络-networking)
     - [OpenGL](#opengl)
@@ -628,7 +628,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [svgo](https://github.com/ajstarks/svgo) - Go Language Library for SVG generation.
 * [tga](https://github.com/ftrvxmtrx/tga) - Package tga is a TARGA image format decoder/encoder.
 
-## <span id="物联网-iot">物联网 IoT (Internet of Things)</span> 
+## <span id="物联网-iot-internet-of-things">物联网 IoT (Internet of Things)</span>
 
 *Libraries for programming devices of the IoT.*
 
@@ -679,7 +679,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [zap](https://github.com/uber-go/zap) - Fast, structured, leveled logging in Go.
 * [zerolog](https://github.com/rs/zerolog) - Zero-allocation JSON logger.
 
-## <span id="机器学习-machine-learning">Machine Learning</span> 
+## <span id="机器学习-machine-learning">机器学习 Machine Learning</span>
 
 *Libraries for Machine Learning.*
 
@@ -795,7 +795,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [xkg](https://github.com/go-xkg/xkg) - X Keyboard Grabber.
 * [xstrings](https://github.com/huandu/xstrings) - Collection of useful string functions ported from other languages.
 
-## <span id="自然语言处理-natural-language-processing">Natural Language Processing</span> 
+## <span id="自然语言处理-natural-language-processing">自然语言处理 Natural Language Processing</span>
 
 *Libraries for working with human languages.*
 
@@ -936,7 +936,7 @@ See [go-hardware](https://github.com/rakyll/go-hardware) for a comprehensive lis
 * [graphql-go](https://github.com/graphql-go/graphql) - Implementation of GraphQL for Go.
 * [jsonql](https://github.com/elgs/jsonql) - JSON query expression library in Golang.
 
-## <span id="resource-embedding">Resource Embedding</span> 
+## <span id="资源嵌入-resource-embedding">资源嵌入 Resource Embedding</span>
 
 * [esc](https://github.com/mjibson/esc) - Embeds files into Go programs and provides http.FileSystem interfaces to them.
 * [fileb0x](https://github.com/UnnoTed/fileb0x) - Simple tool to embed files in go with focus on "customization" and ease to use.
