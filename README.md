@@ -604,9 +604,9 @@ Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](
 
 * [bild](https://github.com/anthonynsimon/bild) - 纯Go中的图像处理算法集合。
 * [bimg](https://github.com/h2non/bimg) - 使用libvips进行快速高效的图像处理的小型软件包。
-* [geopattern](https://github.com/pravj/geopattern) - 从字符串中创建美的生成图像模式 Create beautiful generative image patterns from a string.
-* [gg](https://github.com/fogleman/gg) - 2D rendering in pure Go.
-* [gift](https://github.com/disintegration/gift) - Package of image processing filters.
+* [geopattern](https://github.com/pravj/geopattern) - 从字符串中创建美的生成图像模式。
+* [gg](https://github.com/fogleman/gg) - GO语言原生实现绘制二维图。
+* [gift](https://github.com/disintegration/gift) - 图像处理过滤软件包。
 * [go-cairo](https://github.com/ungerik/go-cairo) - Go binding for the cairo graphics library.
 * [go-gd](https://github.com/bolknote/go-gd) - Go binding for GD library.
 * [go-nude](https://github.com/koyachi/go-nude) - Nudity detection with Go.
@@ -632,21 +632,22 @@ Go terminal dashboard based on **termbox-go** and inspired by [blessed-contrib](
 
 *用于编程物联网设备的库*
 
-* [connectordb](https://github.com/connectordb/connectordb) - Open-Source Platform for Quantified Self & IoT.
-* [devices](https://github.com/goiot/devices) - Suite of libraries for IoT devices, experimental for x/exp/io.
-* [eywa](https://github.com/xcodersun/eywa) - Project Eywa is essentially a connection manager that keeps track of connected devices.
-* [flogo](https://github.com/tibcosoftware/flogo) - Project Flogo is an Open Source Framework for IoT Edge Apps & Integration.
-* [gatt](https://github.com/paypal/gatt) - Gatt is a Go package for building Bluetooth Low Energy peripherals.
-* [gobot](https://github.com/hybridgroup/gobot/) - Gobot is a framework for robotics, physical computing, and the Internet of Things.
-* [mainflux](https://github.com/Mainflux/mainflux) - Industrial IoT Messaging and Device Management Server.
-* [sensorbee](https://github.com/sensorbee/sensorbee) - Lightweight stream processing engine for IoT.
+* [connectordb](https://github.com/connectordb/connectordb) - 开源的物联网量化平台。
+* [devices](https://github.com/goiot/devices) - 用于物联网设备的库套件，用于x / exp / io的实验。
+* [eywa](https://github.com/xcodersun/eywa) - Project Eywa本质上是一个连接管理器，用于跟踪连接的设备。
+* [flogo](https://github.com/tibcosoftware/flogo) - Flogo项目是IoT Edge应用程序和集成的开源框架。
+* [gatt](https://github.com/paypal/gatt) - Gatt是构建蓝牙低功耗外设的Go包。
+* [gobot](https://github.com/hybridgroup/gobot/) - Gobot是机器人，物理计算和物联网的框架。
+* [mainflux](https://github.com/Mainflux/mainflux) - 业物联网消息和设备管理服务器。
+* [sensorbee](https://github.com/sensorbee/sensorbee) - 用于物联网的轻量级流处理引擎。
 
 ## <span id="日志-logging">日志 Logging</span>
 
 *Libraries for generating and working with log files.*
 
-* [glg](https://github.com/kpango/glg) - glg is simple and fast leveled logging library for Go.
-* [glog](https://github.com/golang/glog) - Leveled execution logs for Go.
+* [distillog ](https://github.com/amoghe/distillog) - 提供还支持日志级别的简约日志记录界面。
+* [glg](https://github.com/kpango/glg) - GLG是简单和快速的级别GO语言日志库。
+* [glog](https://github.com/golang/glog) - Go的平台执行日志。
 * [go-cronowriter](https://github.com/utahta/go-cronowriter) - Simple writer that rotate log files automatically based on current date and time, like cronolog.
 * [go-log](https://github.com/siddontang/go-log) - Log lib supports level and multi handlers.
 * [go-log](https://github.com/ian-kent/go-log) - Log4j implementation in Go.
